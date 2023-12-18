@@ -11,6 +11,15 @@ You will need django to be installed in you computer to run this app. Head over 
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
+
+```bash
+$ virtualenv -p python3 env
+   source env/bin/activate
+   (env) cd django-todo-docker
+   (env) pip install django  ##if you don't have download django or you you want to run in  docker then run olny
+```
+
+
 ```bash
 $ python manage.py makemigrations
 ```
